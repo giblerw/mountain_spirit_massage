@@ -1,0 +1,59 @@
+.philosophy-container {
+	min-width: 100vw;
+	display: inline-flex;
+	flex-flow: row nowrap;
+	padding: 10px 100px;
+}
+
+.philosophy-left {
+	width: 35%;
+	border: 1px solid blue;
+	padding: 10px 30px;
+}
+
+.left-text-top {
+	font-size: 2.2rem;
+}
+.left-text-title {
+	font-size: 4rem;
+	line-height: 1;
+	margin: 5px 0 20px 0;
+}
+
+.left-avatar-container {
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left-avatar {
+	height: 150px;
+	width: 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('https://via.placeholder.com/150');
+	border-radius: 50%;
+}
+
+.philosophy-right {
+	width: 65%;
+	border: 1px solid green;
+}
+
+.philosophy-container-footer {
+	min-width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.philosophy-container-footer-text {
+
+}
+
+.philosophy-container-footer-sign {
+	
+}

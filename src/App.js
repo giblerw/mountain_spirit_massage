@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './components/NavBar';
+import Start from './components/pages/Start';
+import Philosophy from './components/pages/Philosophy';
+import ParallaxImg from './components/ParallaxImg';
+import ContentContainer from './components/ContentContainer';
+import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+	<div className='app-container'>
+		<NavBar />
+		<Start />
+		<Philosophy />
+		<ParallaxImg idx={2} />
+		<ContentContainer />
+		<ParallaxImg idx={3} />
+		<ContentContainer />
+		<Footer />
+	</div>
+);
 
 export default App;
