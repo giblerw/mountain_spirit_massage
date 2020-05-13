@@ -1,10 +1,11 @@
 import React from 'react';
-import NavBar from './components/NavBar';
+import NavBar from './components/shared/NavBar';
 import Start from './components/pages/Start';
 import Philosophy from './components/pages/Philosophy';
-import ParallaxImg from './components/ParallaxImg';
-import ContentContainer from './components/ContentContainer';
-import Footer from './components/Footer';
+import ParallaxImg from './components/shared/ParallaxImg';
+import ContentContainer from './components/shared/ContentContainer';
+import Footer from './components/shared/Footer';
+import Services from './components/pages/Services';
 
 const App = () => (
 	<div className='app-container'>
@@ -12,7 +13,7 @@ const App = () => (
 		<Start />
 		<Philosophy />
 		<ParallaxImg idx={2} />
-		<ContentContainer />
+		<Services />
 		<ParallaxImg idx={3} />
 		<ContentContainer />
 		<Footer />

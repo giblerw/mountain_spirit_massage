@@ -1,5 +1,5 @@
 import React from 'react';
-import ContentContainer from '../ContentContainer';
+import ContentContainer from '../shared/ContentContainer';
 
 const Philosophy = () => (
 	<ContentContainer>
@@ -12,9 +12,12 @@ const Philosophy = () => (
 				</div>
 			</div>
 			<div className='philosophy-right'>
-				I graduated with an AOS Degree in Massage Therapy from the Colorado School of Healing Arts in Lakewood, Colorado in 2015.  My advanced certificates are in the areas of Advanced Neuromuscular Massage, Sports Massage, Craniosacral Therapy, and Lymphatic Drainage Massage.   In 2016, I earned my Reiki Master title through Patti Templin in Denver, CO.  Any of these modalities can be integrated into a session tailored to your specific needs or experienced individually. 
-			
-				My mission statement is to help others heal, transform, and evolve by listening deeply and generously to their bodies and spirits, and working with those beings to create changes for their highest good. The values I strive to embody in my practice are COMPASSION, LISTENING, INTEGRITY, CONNECTION, WHOLENESS, EVOLUTION, and INTENTION.
+				<p className='philosophy-p'>
+					I graduated with an AOS Degree in Massage Therapy from the Colorado School of Healing Arts in Lakewood, Colorado in 2015.  My advanced certificates are in the areas of Advanced Neuromuscular Massage, Sports Massage, Craniosacral Therapy, and Lymphatic Drainage Massage.   In 2016, I earned my Reiki Master title through Patti Templin in Denver, CO.  Any of these modalities can be integrated into a session tailored to your specific needs or experienced individually.
+				</p>
+				<p className='philosophy-p'>
+					My mission statement is to help others heal, transform, and evolve by listening deeply and generously to their bodies and spirits, and working with those beings to create changes for their highest good. The values I strive to embody in my practice are COMPASSION, LISTENING, INTEGRITY, CONNECTION, WHOLENESS, EVOLUTION, and INTENTION.
+				</p>				
 			</div>
 		</div>
 		<div className='philosophy-container-footer'>

@@ -2,12 +2,13 @@
 	min-width: 100vw;
 	display: inline-flex;
 	flex-flow: row nowrap;
-	padding: 10px 100px;
+	justify-content: center;
+	padding: 100px 100px 10px 100px;
 }
 
 .philosophy-left {
 	width: 35%;
-	border: 1px solid blue;
+	max-width: 450px;
 	padding: 10px 30px;
 }
 
@@ -38,8 +39,15 @@
 }
 
 .philosophy-right {
-	width: 65%;
-	border: 1px solid green;
+	width: 45%;
+	max-width: 1000px;
+}
+
+.philosophy-p {
+	text-align: center;
+	padding: 0 2vw 20px 2vw;
+	line-height: 1.5;
+	font-size: 1.3rem;
 }
 
 .philosophy-container-footer {
@@ -50,10 +58,17 @@
 	align-items: center;
 }
 
-.philosophy-container-footer-text {
+.philosophy-container-footer {
+	margin: 25px 0 100px 0;
+}
 
+.philosophy-container-footer-text {
+	text-align: center;
+	padding-bottom: 25px;
+	font-size: 1.5rem;
 }
 
 .philosophy-container-footer-sign {
-	
+	font-weight: 500;
+	font-size: 1.5rem;
 }
